@@ -147,6 +147,7 @@ nav button{
     height: 6px;
     border-top: 2px solid #ffffff;
    	color: #ffffff;
+	transition: all .2s ease;
 }
 .menu-btn::after{
 	content: ".";
@@ -155,6 +156,13 @@ nav button{
     width: 15px;
     border-top: 2px solid #ffffff;
    	color: #ffffff;
+	transition: all .2s ease;
+}
+nav button:hover .menu-btn::before {
+	width: 15px;
+}
+nav button:hover .menu-btn::after {
+	width: 25px;
 }
 .navitem{
 	height: 100vh;
